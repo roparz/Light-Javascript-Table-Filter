@@ -4,7 +4,7 @@ Made for an internal tool, I didn't try to make it crossbrowser.
 
 You don't need any library to use it. It's just javascript.
 
-Here is a simple implementation [demo](http://roparz.me/light-table-filter/) and here is a [playground](http://cssdeck.com/labs/light-javascript-table-filter).
+Here is a simple implementation [demo](http://roparz.me/play/light-javascript-table-filter/) and here is a [playground](http://cssdeck.com/labs/light-javascript-table-filter).
 
 ## How to use it?
 
