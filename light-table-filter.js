@@ -16,8 +16,13 @@
 		}
 
 		function _filter(row) {
-			var text = row.textContent.toLowerCase(), val = _input.value.toLowerCase();
-			row.style.display = text.indexOf(val) === -1 ? 'none' : 'table-row';
+			var text = row.textContent.toLowerCase(),
+				vals = _input.value.toLowerCase().split(' '),
+				len = vals.length, n = 0;
+			Arr.forEach.call(vals, function(val) {
+				if (text.indexOf(val) !== -1) n++;
+			});
+			row.style.display = n === len ? 'table-row' : 'none';
 		}
 
 		return {
