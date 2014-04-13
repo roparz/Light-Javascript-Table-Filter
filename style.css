@@ -1,38 +1,37 @@
-
 h2 {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .container {
-  text-align: center;
-  overflow: hidden;
-  width: 800px;
-  margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .container table {
-  width: 100%;
+    width: 100%;
 }
 
 .container td, .container th {
-  padding: 10px;
+    padding: 10px;
 }
 
 .container td:first-child, .container th:first-child {
-  padding-left: 20px;
+    padding-left: 20px;
 }
 
 .container td:last-child, .container th:last-child {
-  padding-right: 20px;
+    padding-right: 20px;
 }
 
 .container th {
-  border-bottom: 1px solid #ddd;
-  position: relative;
+    border-bottom: 1px solid #ddd;
+    position: relative;
 }
 
 .github {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 

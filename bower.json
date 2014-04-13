@@ -1,0 +1,25 @@
+{
+  "name": "Light-Javascript-Table-Filter",
+  "version": "0.0.1",
+  "homepage": "https://github.com/roparz/Light-Javascript-Table-Filter",
+  "authors": [
+    "Christophe Gourmelon <christophe.gourmelon@gmail.com>"
+  ],
+  "description": "Lightweight javascript table filter",
+  "main": "light-table-filter.js",
+  "keywords": [
+    "javascript",
+    "table",
+    "filter",
+    "light",
+    "lightweight"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

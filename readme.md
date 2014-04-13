@@ -8,17 +8,16 @@ Here is a simple implementation [demo](http://roparz.me/play/light-javascript-ta
 
 ## How to use it?
 
-Installation is very simple. Just add the script in your html (head or foot, whatever):
+Installation is very simple. Just add the script at the end of your html (just before `</body>`) and then call the `init` function:
 ```html
-<script src="light-table-filter.js"></script>
-```
-
-Or the minified version:
-```html
+<body>
+...
 <script src="light-table-filter.min.js"></script>
+<script> LightTableFilter.init() </script>
+</body>
 ```
 
-Your filtering input need to get the class `light-table-filter` and a data attribute with the class tables that you want to filter.
+Your filtering input need to have the class `light-table-filter` and a data attribute with the class tables that you want to filter.
 
 In the following example my input will filter all tables that have the class `order-table`.
 
